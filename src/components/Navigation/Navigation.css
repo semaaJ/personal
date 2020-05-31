@@ -1,0 +1,39 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+}
+
+.navItem {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.navItem slash {
+    cursor: none;
+}
+
+.navItem a {
+    text-decoration: none;
+    font: 14px 'Inconsolata', monospace;
+    text-transform: uppercase;
+}
+
+.underlined {
+    color: #383737;
+    font-size: 1em;
+    text-decoration: none;
+    background-position: 0 1.2em;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: background .3s;
+}
+
+.underlined:hover {
+    background-size: 100% 100%;
+    background-image: linear-gradient(to right, #383737 0, #383737 100%);
+}

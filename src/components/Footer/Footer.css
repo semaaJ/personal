@@ -1,0 +1,12 @@
+.footer {
+    text-align: center;
+    font: 14px 'Inconsolata', monospace;
+}
+
+.footer hr {
+    width: 250px;
+}
+
+.footerContent {
+    margin: 15px;
+}
