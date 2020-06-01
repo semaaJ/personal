@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`should render Shell correctly 1`] = `"<div class=\\"shell-wrap\\"><div class=\\"shell-top-bar\\"></div><div class=\\"shell-body\\"><div class=\\"skip\\"><svg viewBox=\\"0 0 24 24\\" style=\\"width: 1.5rem; height: 1.5rem;\\" role=\\"presentation\\" class=\\"icon\\"><path d=\\"M4,5V19L11,12M18,5V19H20V5M11,5V19L18,12\\" style=\\"fill: currentColor;\\"></path></svg></div><div style=\\"opacity: 1;\\"><span data-typeit-id=\\"4912939\\"><span class=\\"ti-cursor\\" style=\\"display: inline;\\">|</span></span></div></div></div>"`;

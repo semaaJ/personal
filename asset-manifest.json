@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/personal/static/css/main.5c3fccca.chunk.css",
+    "main.js": "/personal/static/js/main.65056f98.chunk.js",
+    "main.js.map": "/personal/static/js/main.65056f98.chunk.js.map",
+    "runtime-main.js": "/personal/static/js/runtime-main.1b2e2699.js",
+    "runtime-main.js.map": "/personal/static/js/runtime-main.1b2e2699.js.map",
+    "static/js/2.f92ccd16.chunk.js": "/personal/static/js/2.f92ccd16.chunk.js",
+    "static/js/2.f92ccd16.chunk.js.map": "/personal/static/js/2.f92ccd16.chunk.js.map",
+    "index.html": "/personal/index.html",
+    "precache-manifest.b1f30dbb42c795d6dad1b650b9deff55.js": "/personal/precache-manifest.b1f30dbb42c795d6dad1b650b9deff55.js",
+    "service-worker.js": "/personal/service-worker.js",
+    "static/css/main.5c3fccca.chunk.css.map": "/personal/static/css/main.5c3fccca.chunk.css.map",
+    "static/js/2.f92ccd16.chunk.js.LICENSE.txt": "/personal/static/js/2.f92ccd16.chunk.js.LICENSE.txt",
+    "static/media/comet_homepage.png": "/personal/static/media/comet_homepage.d2398d6d.png",
+    "static/media/dynamic.gif": "/personal/static/media/dynamic.fa6716c8.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b2e2699.js",
+    "static/js/2.f92ccd16.chunk.js",
+    "static/css/main.5c3fccca.chunk.css",
+    "static/js/main.65056f98.chunk.js"
+  ]
+}

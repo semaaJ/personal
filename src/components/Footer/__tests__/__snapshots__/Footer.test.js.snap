@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`should render Footer correctly 1`] = `"<div class=\\"footer\\"><hr/><div class=\\"footerContent\\">Designed by James Miles 2020</div></div>"`;
