@@ -15,17 +15,17 @@ function App() {
     <div className="App">
       <Logo />
       <Navigation />
-        <div className="contentTitle">01. About</div>
+        <div id="about" className="contentTitle">01. About</div>
         <div className="contentContainer">
           <Shell />
         </div>
 
-        <div className="contentTitle">02. Experience</div>
+        <div id="experience" className="contentTitle">02. Experience</div>
         <div className="contentContainer">
           <Experience />
         </div>
 
-        <div className="contentTitle">03. Projects</div>
+        <div id="projects" className="contentTitle">03. Projects</div>
         <div className="contentContainer">
           <Project
             index={1}
@@ -55,7 +55,7 @@ function App() {
           />
         </div>
 
-        <div className="contentTitle">04. Contact</div>
+        <div id="contact" className="contentTitle">04. Contact</div>
         <div className="contentContainer">
           <Contact />
         </div>
