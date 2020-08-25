@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`should render Navigation correctly 1`] = `"<div class=\\"navigation\\"><div class=\\"navItem underlined\\"><a>01. About</a></div><div class=\\"slash\\">//</div><div class=\\"navItem underlined\\"><a>02. Experience</a></div><div class=\\"slash\\">//</div><div class=\\"navItem underlined\\"><a>03. Projects</a></div><div class=\\"slash\\">//</div><div class=\\"navItem underlined\\"><a>04. Contact</a></div></div>"`;

@@ -1,39 +1,39 @@
 .navigation {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style-type: none;
-    list-style: none;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    height: 30px;
+    color: white;
     align-items: center;
-    padding: 0;
+    justify-content: space-between;
 }
 
-.navItem {
-    margin: 10px;
+.navDiv {
+    display: flex;
+    align-items: center;
+}
+
+
+.navigationItem {
+    padding: 6px;
+    font-size: 14px;
     cursor: pointer;
 }
 
-.navItem slash {
-    cursor: none;
+.icon {
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 12px;
+    height: 14px;
 }
 
-.navItem a {
-    text-decoration: none;
-    font: 14px 'Inconsolata', monospace;
-    text-transform: uppercase;
+.invert {
+    filter: invert(100%);
 }
 
-.underlined {
-    color: #383737;
-    font-size: 1em;
-    text-decoration: none;
-    background-position: 0 1.2em;
-    background-size: 0 100%;
-    background-repeat: no-repeat;
-    transition: background .3s;
-}
-
-.underlined:hover {
-    background-size: 100% 100%;
-    background-image: linear-gradient(to right, #383737 0, #383737 100%);
+.strong { 
+    font-weight: 650;
 }
