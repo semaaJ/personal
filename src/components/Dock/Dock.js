@@ -7,7 +7,8 @@ import terminal from './app-terminal.png';
 import trash from './app-trash.png';
 import './Dock.css';
 
-const Dock = () => {
+const Dock = (props) => {
+    const { setTopWindow } = props;
 
     return (
         <div className="dock">
@@ -22,10 +23,10 @@ const Dock = () => {
                     <img className="appIcon" src={preferences} />
                 </li>
                 <li>
-                    <img className="appIcon" src={safari} />
+                    <img className="appIcon" src={safari} onClick={() => setTopWindow("Safari")} />
                 </li>
                 <li>
-                    <img className="appIcon" src={terminal} />
+                    <img className="appIcon" src={terminal} onClick={() => setTopWindow("Shell")} />
                 </li>
                 <li>
                     <img className="appIcon" src={trash} />

@@ -13,6 +13,8 @@
   margin: 0 auto 0 auto;
   margin-bottom: 20px;
   box-shadow: 0 0 30px rgba(0,0,0,0.4);
+  position: absolute;
+  right: 5%;
 }
 
 .shell-top-bar {
@@ -97,4 +99,8 @@
 
 .link:hover {
   color: #00EEEE;
+}
+
+.topIndex {
+  z-index: 10000;
 }

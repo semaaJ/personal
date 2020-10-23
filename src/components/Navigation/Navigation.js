@@ -1,11 +1,12 @@
 import React from 'react';
 import icon from './icon.png';
-import sound from './sound.png';
-import battery from './battery.png';
-import search from './search.png';
 import './Navigation.css';
 
 const Navigation = () => {
+    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const today = new Date();
+    const dateTime = `${days[today.getDay()]} ${today.getHours()}:${today.getMinutes()}`;
+
     return (
         <>
             <div className="navigation">
@@ -23,7 +24,7 @@ const Navigation = () => {
                     <div className="navigationItem">Go</div>
                     <div className="navigationItem">Window</div>
                     <div className="navigationItem">Help</div>
-                    <div className="navigationItem">Mon 11:01 PM</div>
+                    <div className="navigationItem">{ dateTime }</div>
                 </div>
                    
             </div>

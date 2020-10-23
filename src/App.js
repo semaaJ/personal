@@ -1,17 +1,11 @@
 import React from 'react';
-import Shell from './components/Shell/Shell';
-import Navigation from './components/Navigation/Navigation';
-import Dock from './components/Dock/Dock';
+import Homepage from './components/Homepage';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Navigation />
-      <div className="desktopContainer">
-        <Shell />
-      </div>
-      <Dock />
+      <Homepage />
     </div>
   );
 }

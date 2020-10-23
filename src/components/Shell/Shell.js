@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import TypeIt from 'typeit-react';
 import Icon from '@mdi/react'
 import { mdiSkipForward } from '@mdi/js'
+import Draggable from 'react-draggable';
 import './Shell.css';
 
 const shellData = (bool) => {
@@ -35,37 +36,42 @@ const shellData = (bool) => {
     )
 }
 
-const Shell = () => {
+const Shell = (props) => {
+    const { topWindow, setTopWindow } = props;
     const [skip, setSkip] = useState(false);
     
+    const isTopWindow = topWindow === "Shell" ? "shell-wrap topIndex" : "shell-wrap";
+
     const onSkipHandler = () => {
         setSkip(true);
     }
     
     return (
-        <div className="shell-wrap">
-            <div className="shell-top-bar" />
-            <div className="shell-body">
-                <div className="skip">
-                    <Icon 
-                        className="icon"
-                        onClick={onSkipHandler}
-                        path={mdiSkipForward} 
-                        size={1}
-                    />
+        <Draggable>
+            <div className={isTopWindow} onClick={() => setTopWindow("Shell")}>
+                <div className="shell-top-bar" />
+                <div className="shell-body">
+                    <div className="skip">
+                        <Icon 
+                            className="icon"
+                            onClick={onSkipHandler}
+                            path={mdiSkipForward} 
+                            size={1}
+                        />
+                    </div>
+                        { skip ? shellData(true) : 
+                            <TypeIt
+                                options={{
+                                    speed: 10,
+                                    waitUntilVisible: true,
+                                }}
+                            >
+                            { shellData() }
+                        </TypeIt>
+                        }
                 </div>
-                    { skip ? shellData(true) : 
-                        <TypeIt
-                            options={{
-                                speed: 10,
-                                waitUntilVisible: true,
-                            }}
-                        >
-                         { shellData() }
-                     </TypeIt>
-                    }
             </div>
-        </div>
+        </Draggable>
     )
 }   
 
