@@ -1,0 +1,52 @@
+<div className="d-f fd-c">
+            <animated.div style={titleProps}>
+              <div className="d-f al-c">
+                <h2 style={{ width: "200px" }}>HTML/CSS</h2>
+                <div className="progressContainer">
+                  <animated.div style={htmlProps}>
+                    <div className="progressBar" />
+                  </animated.div>
+                </div>
+              </div>
+
+              <div className="d-f al-c">
+                <h2 style={{ width: "200px" }}>Javascript</h2>
+                <div className="progressContainer">
+                  <animated.div style={jsProps}>
+                    <div className="progressBar" />
+                  </animated.div>
+                </div>
+              </div>
+
+              <div className="d-f al-c">
+                <h2 style={{ width: "200px" }}>Python</h2>
+                <div className="progressContainer">
+                  <animated.div style={pyProps}>
+                    <div className="progressBar" />
+                  </animated.div>
+                </div>
+              </div>
+            </animated.div>
+          </div>
+
+
+
+                {/* <div className="d-f fd-c">
+            <animated.div style={titleProps}>
+              <div className="card">
+                <div className="d-f jc-sb al-c">
+                  <h3>Twitter Stock Monitor</h3>
+                  <FaGithubSquare className="mr-4" size={24} color="white" />
+                </div>
+
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <div className="d-f jc-sb">
+                  <h3>HTML/CSS</h3>
+                  <h3>JS</h3>
+                  <h3>React</h3>
+                  <h3>Python</h3>
+                </div>
+              </div>
+              
+            </animated.div>.
+          </div> */}

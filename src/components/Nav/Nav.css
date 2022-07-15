@@ -1,0 +1,40 @@
+.navItem {
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    color: var(--dk-gray-100);
+}
+
+.navItem:hover {
+    transition: 0.3s;
+    color: var(--primary-dark);
+}
+
+.menu {
+    margin-left: 20px;
+}
+
+.menu .line {
+    width: 25px;
+    height: 2px;
+    background-color: var(--primary-dark);
+    display: block;
+    margin: 8px auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
+#menu.active .line:nth-child(2){
+    opacity: 0;
+  }
+  
+#menu.active .line:nth-child(1){
+    transform: translateY(10px) rotate(45deg);
+}
+  
+#menu.active .line:nth-child(3){
+    transform: translateY(-10px) rotate(-45deg);
+}
