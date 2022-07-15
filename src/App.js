@@ -51,8 +51,8 @@ function App() {
     <h1>me, myself & i</h1>,
     <h2 style={{ maxWidth: "1050px", }}>i'm a passionate, creative and hardworking developer who enjoys building the complexities of backend systems and hiding them behind beautiful web applications</h2>,
     <h2 style={{  maxWidth: "1050px", marginTop: "18px" }}>although i much prefer frontend development, in particular the react framework</h2>,
-    <h2 style={{  maxWidth: "1050px", marginTop: "18px" }}>i love modernity & take a lot of inspiration from modern architecture and aquascapes in their sleek & minimalistic designs</h2>,
-    <h2 style={{  maxWidth: "1050px",  marginTop: "18px" }}>outside of coding I enjoy reading about the financial world</h2>,
+    // <h2 style={{  maxWidth: "1050px", marginTop: "18px" }}>i love modernity & take a lot of inspiration from modern architecture and aquascapes in their sleek & minimalistic designs</h2>,
+    // <h2 style={{  maxWidth: "1050px",  marginTop: "18px" }}>outside of coding I enjoy reading about the financial world</h2>,
 
   ];
 
