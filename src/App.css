@@ -118,7 +118,6 @@ h4 {
 }
 
 
-
 .selected { color: var(--primary-dark); }
 .external { cursor: pointer; }
 .external:hover { color: var(--primary-dark) !important; }

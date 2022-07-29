@@ -2,7 +2,7 @@
     margin-left: 8px;
     margin-right: 8px;
     cursor: pointer;
-    color: var(--dk-gray-100);
+    color: var(--primary-text);
 }
 
 .navItem:hover {

@@ -5,9 +5,9 @@ import './Nav.css';
 
 const Nav = (props) => {
     const { state, setState } = props;
-    const [menu, setMenu] = useState(true);
+    const [menu, setMenu] = useState(false);
     
-    const items = ['home', 'about', 'experience', 'projects']
+    const items = ['experience', 'projects']
     const trail = useTrail(items.length, { delay: 100, to: { opacity: 1, x: 0 }, from: { opacity: 0, x: 0 } })
 
     return (
@@ -25,8 +25,8 @@ const Nav = (props) => {
                                 trail.map(({ ...otherProps }, i) => 
                                     <animated.div style={otherProps} >
                                         <h3 
-                                            className={state.tab === i ? 'navItem primaryDark' : 'navItem'} 
-                                            onClick={() => setState({ ...state, tab: i })}>
+                                            className={state.tab === i + 1 ? 'navItem primaryDark' : 'navItem'} 
+                                            onClick={() => setState({ ...state, tab: i + 1 })}>
                                                 <a className="effect-underline">{ items[i] }</a>
                                         </h3>
                                     </animated.div>

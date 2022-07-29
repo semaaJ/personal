@@ -34,7 +34,6 @@ function App() {
   
   const tabs = [
     <Home state={state} setState={setState} />, 
-    <About state={state} setState={setState} />,
     <Experience state={state} setState={setState} />,
     <Projects state={state} setState={setState} />
   ];

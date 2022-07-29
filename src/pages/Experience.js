@@ -14,11 +14,14 @@ const Experience = () => {
                     <h2><span className="primaryDark">mellio</span>, dublin</h2>
                     <h4>aug 20 - current</h4>
                   </div>
-                  <h2>product manager & developer</h2>
-                  <p className="mb-4 mt-0">participated in the development of an saas product which enables mechanical workshops to manage, monitor and reward employees</p>
-                  <p className="mb-4 mt-0">managed stakeholder communication</p>
-                  <p className="mb-4 mt-0">and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                  <p className="mb-4 mt-0">participated in the development of an saas product which enables mechanical workshops to manage, monitor and reward employees</p>
+                  <h2>product manager & full stack developer</h2>
+                  <p className="mb-4 mt-0">participated in the development of an saas product for mechanical workshops to monitor, manage & reward employees.</p>
+                  <p className="mb-4 mt-0">consulted with clients to assess & turn requirements into features.</p>
+                  <p className="mb-4 mt-0">worked with external third parties to assess partnerships & managed the integration of partners.</p>
+                  <p className="mb-4 mt-0">created promotional content & conducted demos for potential clients & partnerships.</p>
+                  <p className="mb-4 mt-0">extended the system to enable the integration and displaying of bodyshop data.</p>
+                  <p className="mb-4 mt-0">built an admin dashboard to allow clients to view results using graphql & react.</p>
+                  <p className="mb-4 mt-0">utilised aws services such as lambda, cloud watch & cloud formation.</p>
                   <hr className="divide"/>
                 </div>
   
@@ -28,12 +31,11 @@ const Experience = () => {
                     <h4>apr 19 - sept 19</h4>
                   </div>
                   <h2>software engineer intern</h2>
-                  <p className="mb-4 mt-0">worked, using agile & scrum methods, alongside a team developing an application which would provide a critical connectivity channel between stakeholders.</p>
-                  <p className="mb-4 mt-0">translated designs to high quality & reusable react components.</p>
+                  <p className="mb-4 mt-0">collaborated with a team of 5 developers on an application to provide a critical connectivity channel between stakeholders using react</p>
+                  <p className="mb-4 mt-0">translated designs to high quality & reusable react components</p>
                   <p className="mb-4 mt-0">collaborated with editors to gather feedback for iterative design</p>
-                  <p className="mb-4 mt-0">deployed code which met company standards of 85% test coverage (via jest) & participated in peer code reviews for adherence to coding standards.</p>
-                  <p className="mb-4 mt-0">experienced developing back end services (Typescript)</p>
-                  <p className="mb-4 mt-0">participated in a company hackathon.</p>
+                  <p className="mb-4 mt-0">deployed code which met company standards of 85% test coverage (via jest) & participated in peer code reviews for adherence to coding standards</p>
+                  <p className="mb-4 mt-0">runner-up in a company hackathon with a react app to visualise celebrity popularity</p>
                   <hr className="divide"/>
                 </div>
   
@@ -42,10 +44,9 @@ const Experience = () => {
                     <h2><span className="primaryDark">dublin city university</span>, dublin</h2>
                     <h4>jan 19 - feb 19</h4>
                   </div>
-                  <h2>lab assistant</h2>
+                  <h2>computety assistant</h2>
                   <h4>feb 2019 - mar 2019</h4>
-                  <p className="m-0">worked, using agile & scrum methods, alongside a team developing an application which would provide a critical connectivity channel between stakeholders.</p>
-                  <p className="m-0">translated designs to high quality & reusable react components.</p>
+                  <p className="m-0">helped introduce transition year students to coding through scratch</p>
                 </div>
               </div>
             </div>

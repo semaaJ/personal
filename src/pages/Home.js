@@ -79,12 +79,12 @@ const Home = (props) => {
               <animated.div style={tabProps}>
                 <div className="d-f fd-c">
                   <h1>
-                    <a onClick={() => setState({ ...state, tab: 2 })} className="effect-underline">experience</a>
+                    <a onClick={() => setState({ ...state, tab: 1 })} className="effect-underline">experience</a>
                   </h1>
                 </div>
                 <div className="d-f fd-c">
                   <h1>
-                    <a onClick={() => setState({ ...state, tab: 3 })} className="effect-underline">projects</a>
+                    <a onClick={() => setState({ ...state, tab: 2 })} className="effect-underline">projects</a>
                   </h1>
                 </div>
               </animated.div>
