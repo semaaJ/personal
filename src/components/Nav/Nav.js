@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { useTrail, animated } from 'react-spring'
+import { useTrail, animated } from 'react-spring';
 import me from '../../static/me.png';
 import './Nav.css';
 
 const Nav = (props) => {
     const { state, setState } = props;
-    const [menu, setMenu] = useState(false);
+    const [menu, setMenu] = useState(true);
     
-    const items = ['about', 'experience', 'projects']
+    const items = ['home', 'about', 'experience', 'projects']
     const trail = useTrail(items.length, { delay: 100, to: { opacity: 1, x: 0 }, from: { opacity: 0, x: 0 } })
 
     return (
@@ -25,8 +25,8 @@ const Nav = (props) => {
                                 trail.map(({ ...otherProps }, i) => 
                                     <animated.div style={otherProps} >
                                         <h3 
-                                            className={state === items[i] ? 'navItem selected' : 'navItem'} 
-                                            onClick={() => setState({ ...state, tab: i + 1 })}>
+                                            className={state.tab === i ? 'navItem primaryDark' : 'navItem'} 
+                                            onClick={() => setState({ ...state, tab: i })}>
                                                 <a className="effect-underline">{ items[i] }</a>
                                         </h3>
                                     </animated.div>
