@@ -1,50 +1,65 @@
-import React, { useState } from 'react';
-
-import Nav from './components/Nav/Nav';
-import Home from './pages/Home';
-import About from './pages/About';
-import Experience from './pages/Experience';
-import Projects from './pages/Projects';
-import './App.css';
-
-const THEMES = [{
-  primaryDark: '#ff3855',
-  background: '#1d1d1d',
-  text: '#F3F4F6',
-}, {
-  primaryDark: '#6A98F0',
-  background: '#2A363B',
-  text: '#F3F4F6',
-}, {
-  primaryDark: 'white',
-  background: 'black',
-  text: 'white',
-}, {
-  primaryDark: '#eb5c14',
-  background: '#355C7D',
-  text: '#F3F4F6',
-}, {
-  primaryDark: '#26d3ec',
-  background: '#1d1d1d',
-  text: '#F3F4F6',
-}];
-
 function App() {
-  const [state, setState] = useState({ colour: THEMES[THEMES.length - 1], tab: 0 });
-  
-  const tabs = [
-    <Home state={state} setState={setState} />, 
-    <Experience state={state} setState={setState} />,
-    <Projects state={state} setState={setState} />
-  ];
 
   return (
-    <div className="App">
-      <div className="container d-f fd-c">  
-        <Nav state={state} setState={setState} />
-        { tabs[state.tab] }
+      <div  className="bg-black flex flex-col h-screen w-screen justify-center items-center">
+        <div className="flex flex-col w-full max-w-5xl">
+          <div style={{"--td": "0.6s"}}>
+            <h1 className="block-reveal text-4xl font-bold max-w-fit">
+              <div className="block-reveal" style={{ "--bc": "#7f00ff", "--d": ".1s"}}>HEY, I'M JAMES</div>
+            </h1>
+          </div>
+          <div style={{"--td": "0.8s"}}>
+            <h1 className="block-reveal text-4xl font-bold max-w-fit">
+              <div className="block-reveal" style={{ "--bc": "#bf4060", "--d": ".2s"}}>A 24 YEAR OLD</div>
+            </h1>
+          </div>
+          <div style={{"--td": "0.9s"}}>
+            <h1 className="block-reveal text-4xl font-bold max-w-fit">
+              <div className="block-reveal" style={{ "--bc": "#4040bf", "--d": ".3s"}}>FULL STACK DEVELOPER</div>
+            </h1>
+          </div>
+          <div style={{"--td": "1s"}}>
+            <h1 className="block-reveal text-4xl font-bold max-w-fit">
+              <div className="block-reveal" style={{ "--bc": "#7f00ff", "--d": ".4s"}}>BASED IN DUBLIN</div>
+            </h1>
+          </div>
+        </div>
+        
+        <div className="flex flex-col w-full max-w-5xl items-end">
+          <div style={{"--td": "1s"}}>
+            <h1 className="block-reveal text-4xl font-bold">
+              <div className="block-reveal" style={{ "--bc": "#4040bf", "--d": ".1s"}}>APP DEVELOPER</div>
+            </h1>
+          </div>
+          <div style={{"--td": "0.8s"}}>
+            <h1 className="block-reveal text-4xl font-bold">
+              <div className="block-reveal" style={{ "--bc": "#bf4060", "--d": ".5s"}}>@ MARSH MCLENNAN</div>
+            </h1>
+          </div>
+        </div>
+
+        <div className="flex w-full max-w-5xl">
+          <div className="flex flex-col w-full">
+            <div style={{"--td": "0.7s"}}>
+              <h1 className="block-reveal text-4xl font-bold max-w-fit">
+                <a href="https://www.github.com/semaaJ" className="block-reveal hover:bg-white" style={{ "--bc": "#7f00ff", "--d": ".1s"}}>GITHUB</a>
+              </h1>
+            </div>
+            
+            <div style={{"--td": "0.8s"}}>
+              <h1 className="block-reveal text-4xl font-bold max-w-fit">
+                <a href="https://www.linkedin.com/in/james-miles-a57867182/" className="block-reveal hover:bg-white" style={{ "--bc": "#bf4060", "--d": ".3s"}}>LINKEDIN</a>
+              </h1>
+            </div>
+
+            <div style={{"--td": "1s"}}>
+              <h1 className="block-reveal text-4xl font-bold max-w-fit">
+                <a href="https://www.google.com" className="block-reveal hover:bg-white" style={{ "--bc": "#4040bf", "--d": ".3s"}}>CV</a>
+              </h1>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
   );
 }
 
