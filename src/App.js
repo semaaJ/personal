@@ -39,7 +39,7 @@ function App() {
         </div>
 
         <div className="flex w-full max-w-5xl">
-          <div className="flex flex-col w-full">
+          <div className="flex w-full max-w-sm justify-between">
             <div style={{"--td": "0.7s"}}>
               <h1 className="block-reveal text-4xl font-bold max-w-fit">
                 <a href="https://www.github.com/semaaJ" className="block-reveal hover:bg-white" style={{ "--bc": "#7f00ff", "--d": ".1s"}}>GITHUB</a>
